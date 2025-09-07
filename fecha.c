@@ -115,10 +115,10 @@ bool restar_Dias(tFecha *fec,int cdr)
    {
        fec->dia-=total_Dias;
        total_Dias=0;
-       if(fec->dia==0)
+       if(fec->dia<0)
        {
            fec->mes-=1;
-           fec->dia=dm[fec->mes];
+           fec->dia=dm[fec->mes]+fec->dia;
            return true;
        }
    }

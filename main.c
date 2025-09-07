@@ -21,7 +21,7 @@ int main()
     //mostrar_fecha_Siguiente(&fecha);
     mostrar_Fecha(&fecha);
     //sumar_Dias(&fecha,600);
-    restar_Dias(&fecha,12);
+    restar_Dias(&fecha,13);
     mostrar_Fecha(&fecha);
 
     return 0;
