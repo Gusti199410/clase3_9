@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1757125755 source:c:\users\thebestgus\desktop\guia de ejercicio\clase_3_9\main.c
+	"clase_3_9.h"
+	"fecha.h"
+
+1757119784 c:\users\thebestgus\desktop\guia de ejercicio\clase_3_9\clase_3_9.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1757119784 source:c:\users\thebestgus\desktop\guia de ejercicio\clase_3_9\clase_3_9.c
+	"clase_3_9.h"
+
+1757128244 c:\users\thebestgus\desktop\guia de ejercicio\clase_3_9\fecha.h
+	"clase_3_9.h"
+
+1757128844 source:c:\users\thebestgus\desktop\guia de ejercicio\clase_3_9\fecha.c
+	"fecha.h"
+	"clase_3_9.h"
+	<stdio.h>
+	<stdbool.h>
+
+1757119784 source:c:\users\thebestgus\desktop\c\guia de ejercicio\clase_3_9\clase_3_9.c
+	"clase_3_9.h"
+
+1757215371 c:\users\thebestgus\desktop\c\guia de ejercicio\clase_3_9\clase_3_9.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1757282078 source:c:\users\thebestgus\desktop\c\guia de ejercicio\clase_3_9\fecha.c
+	"fecha.h"
+	"clase_3_9.h"
+	<stdio.h>
+	<stdbool.h>
+
+1757258117 c:\users\thebestgus\desktop\c\guia de ejercicio\clase_3_9\fecha.h
+	"clase_3_9.h"
+
+1757281137 source:c:\users\thebestgus\desktop\c\guia de ejercicio\clase_3_9\main.c
+	"clase_3_9.h"
+	"fecha.h"
+
