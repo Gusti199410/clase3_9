@@ -28,7 +28,7 @@
 	<stdlib.h>
 	<stdbool.h>
 
-1757282078 source:c:\users\thebestgus\desktop\c\guia de ejercicio\clase_3_9\fecha.c
+1757284430 source:c:\users\thebestgus\desktop\c\guia de ejercicio\clase_3_9\fecha.c
 	"fecha.h"
 	"clase_3_9.h"
 	<stdio.h>
@@ -37,7 +37,7 @@
 1757258117 c:\users\thebestgus\desktop\c\guia de ejercicio\clase_3_9\fecha.h
 	"clase_3_9.h"
 
-1757281137 source:c:\users\thebestgus\desktop\c\guia de ejercicio\clase_3_9\main.c
+1757283810 source:c:\users\thebestgus\desktop\c\guia de ejercicio\clase_3_9\main.c
 	"clase_3_9.h"
 	"fecha.h"
 

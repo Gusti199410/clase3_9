@@ -110,20 +110,29 @@ bool sumar_Dias(tFecha *fec,int cds)
 bool restar_Dias(tFecha *fec,int cdr)
 {
    int total_Dias=cdr;
-    int dm[13] = {0,31,28,31,30,31,30,31,31,30,31,30,31};
-   if(fec->dia>=total_Dias)
+   int dm[13] = {0,31,28,31,30,31,30,31,31,30,31,30,31};
+   while(total_Dias>0)
    {
-       fec->dia-=total_Dias;
-       total_Dias=0;
-       if(fec->dia<0)
+       if(es_bisiesto(fec->anio))
        {
-           fec->mes-=1;
-           fec->dia=dm[fec->mes]+fec->dia;
-           return true;
+           dm[2]=29;
        }
-   }
-   while(total_Dias<dm[fec->mes])
-   {
+       if(fec->dia>total_Dias)
+       {
+           fec->dia-=total_Dias;
+           total_Dias =0;
+       }
+       else
+       {
+           total_Dias-=fec->dia;
+           fec->mes--;
+           if(fec->mes==0)
+           {
+               fec->mes=12;
+               fec->anio--;
+           }
+           fec->dia=dm[fec->mes];
+       }
 
    }
    return true;
